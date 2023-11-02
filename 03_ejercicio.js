@@ -4,6 +4,6 @@ let usuario = {
     ciudad: "Granada"
 };
 
-var saludo= "Hola me llamo " + usuario.nombre + ", tengo " + usuario.edad + " años y soy de " + usuario.ciudad;
+var saludo= `Hola me llamo ${usuario.nombre}, tengo ${usuario.edad} años y soy de ${usuario.ciudad}`
 
 console.log(saludo);
