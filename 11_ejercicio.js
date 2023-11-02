@@ -1,15 +1,8 @@
-let lista= [2, 2.2, "hola", false]  
+let mi_lista = [2, 2.3, "Hola", false]
 
-mostrarLista(lista)
-
-function mostrarLista(lista) {
+function mostrarArray(lista) {
     for (let i = 0; i < lista.length; i++) {
-       console.log(lista[i]) 
+   console.log(lista[i])
     }
 }
-
-
-
-
-
-
+mostrarArray(mi_lista)
