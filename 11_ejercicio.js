@@ -5,4 +5,5 @@ function mostrarArray(lista) {
    console.log(lista[i])
     }
 }
+
 mostrarArray(mi_lista)
