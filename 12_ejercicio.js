@@ -1,6 +1,6 @@
 function calcularImc(peso, altura) {
   let imc = peso / (altura * altura)
-  console.log("Mi peso es " + peso + " kg y mi altura es " + altura + " cm y mi imc es " + imc)
+  console.log(`Mi peso es ${peso} kg y mi altura es ${altura} cm y mi IMC es ${imc}`)
   return imc
 }
 
