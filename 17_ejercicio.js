@@ -1,9 +1,14 @@
+function modificarString(string){
+    let new_string = ""
 
-function CapitalizarVariasLetras(){
-    const palabra = "hola mundo"
-    console.log(palabra.replace("hola mundo", `hOlA mUnDo`))
+for(let i = 0; i < string.length; i++){
+    if(i%2 === 0){
+        new_string += string.charAt(i).toUpperCase()
+    } else{
+        new_string += string.charAt(i).toLowerCase()
+    }
+}
+return new_string
 }
 
-CapitalizarVariasLetras();
-
-
+modificarString("Hola Mundo")
